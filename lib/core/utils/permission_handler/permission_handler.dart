@@ -460,4 +460,15 @@ class PermissionHandler{
   //   }
   // }
 
+  // check if permission is denied
+  Future<bool> checkPermissionStatus(Permission permission) async {
+    var status = await permission.status;
+    if (status.isDenied) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+
 }
