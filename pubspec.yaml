@@ -24,6 +24,7 @@ dependencies:
   flutter_pretty_dio_logger: ^2.0.3
   flutter_secure_storage: ^7.0.1
   shared_preferences: ^2.0.18
+  permission_handler: ^10.2.0
 
 dev_dependencies:
   flutter_test:
